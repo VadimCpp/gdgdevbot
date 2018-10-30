@@ -1,11 +1,11 @@
-class MyFirstBotApp {
+class DevBotApp {
 
     /**
      * @public
      */
     constructor() {
         console.log('');
-        console.log('[MyFirstBotApp]: Create Application...');
+        console.log('[DevBotApp]: Create Application...');
 
         /**
          * @type {string}
@@ -95,4 +95,4 @@ class MyFirstBotApp {
     }
 }
 
-module.exports = MyFirstBotApp;
+module.exports = DevBotApp;

@@ -1,9 +1,9 @@
 const Bot = require('node-telegram-bot-api');
 const token = process.env.BOT_ACCESS_TOKEN;
 const isProduction = process.env.NODE_ENV === 'production';
-const MyFirstBotApp = require('./src/MyFirstBotApp.js');
+const DevBotApp = require('./src/DevBotApp.js');
 
-let myFirstBotApp = new MyFirstBotApp();
+let devBotApp = new DevBotApp();
 let bot;
 
 if (isProduction) {
@@ -17,7 +17,7 @@ if (isProduction) {
 console.log('Bot server started in the ' + process.env.NODE_ENV + ' mode');
 
 bot.on('message', (msg) => {
-    myFirstBotApp.handleMessage(msg, bot);
+    devBotApp.handleMessage(msg, bot);
 });
 
 module.exports = bot;
