@@ -1,7 +1,7 @@
 {
-  "name": "fxswap-bot",
+  "name": "gdgdevbot",
   "version": "1.0.0",
-  "description": "FX Swap",
+  "description": "GDG Dev Bot",
   "main": "index.js",
   "scripts": {
     "dev": "export $(cat .env | xargs) && node index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/vadimcpp/fxswap_bot"
+    "url": "git+https://github.com/VadimCpp/gdgdevbot"
   },
   "author": "Vadim Cpp",
-  "license": "proprietary",
+  "license": "MIT",
   "bugs": {
-    "url": "https://bitbucket.org/vadimcpp/fxswap_bot"
+    "url": "https://github.com/VadimCpp/gdgdevbot"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
